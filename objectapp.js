@@ -36,5 +36,5 @@ employees.forEach(s => console.log(s.totalComp()));
 
 // Global function to format salary amount
 function moneyReadable(num) {
-   return "$" + num.toLocaleString('en-US',{style: 'currency', currency: 'USD'});
+   return num.toLocaleString('en-US',{style: 'currency', currency: 'USD'});
 }
